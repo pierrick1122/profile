@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+.container {
+  text-align: center;
+  width: 900px;
+  margin: 0px auto;      /* Set automatic margins on right/left */
+}
+
+.card {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 10px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  margin: 50px 0;      /* Set automatic margins on right/left */
+  /* width: 600px;        Set the width */
+  box-shadow: 10px 10px 5px grey;
+}
+
+
+body {
+  background-color: #EDE6DB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+}
+
+h1 {
+  color: #417D7A;
+  font-size: 48px;
+}
+
+#profile {
+  height: 170px;
+  border-radius: 10%;
+}
+
+h2 {
+  color: #1A3C40;
+  font-size: 32px;
+}
+
+#btn-green {
+  width: 150px;
+  background-color: #1D5C63;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+#goal-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#github-link {
+  font-size: 40px;
+  color: #1D5C63;
+}
+
+#goal-link:hover, #github-link:hover {
+  color: black;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
